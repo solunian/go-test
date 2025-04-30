@@ -1,2 +1,2 @@
-default: src/*
-	go run src/main.go
+default:
+	go run main.go

@@ -2,4 +2,6 @@ module go-test
 
 go 1.24.2
 
-require github.com/skip2/go-qrcode v0.0.0-20200617195104-da1b6568686e
+require test-mod/greetings v0.0.0-00010101000000-000000000000
+
+replace test-mod/greetings => ./test-mod
